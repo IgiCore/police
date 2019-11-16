@@ -1,0 +1,24 @@
+dependency_nodes: 
+name: IgiCore/Police
+version: 1.0.0
+description: NFive Plugin
+author: IgiCore
+license: LGPL-3.0-or-later
+website: 
+server:
+  main:
+  - IgiCore.Police.Server
+  include:
+  - IgiCore.Police.Shared
+client:
+  main:
+  - IgiCore.Police.Client
+  include:
+  - IgiCore.Police.Shared
+  files:
+  - Overlays/PoliceOverlay.html
+  overlays: 
+  loading_screen: 
+dependencies:
+  NFive/plugin-notifications: ^0.2.0
+repositories: 

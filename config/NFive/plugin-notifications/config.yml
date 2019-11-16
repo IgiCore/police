@@ -1,0 +1,25 @@
+# Maximum number of notifications to show on screen at once
+queue_size: 5
+
+# Notification position on screen
+# https://ned.im/noty/#/types
+# top | topLeft | topCenter | topRight | center | centerLeft | centerRight | bottom | bottomLeft | bottomCenter | bottomRight
+layout: centerLeft
+
+# Notification theme
+# https://ned.im/noty/#/themes
+# mint | sunset | relax | nest | metroui | semanticui | light | bootstrap-v3 | bootstrap-v4
+theme: bootstrap-v4
+
+# Animations to use for notifications opening and closing
+# https://github.com/daneden/animate.css/#animations
+animation_open: bounceInLeft
+animation_close: bounceOutLeft
+
+# Default notification display type for when not specified
+# https://ned.im/noty/#/types
+# alert | success | warning | error | info
+default_type: info
+
+# Default notification display timeout for when not specified
+default_timeout: 5s
